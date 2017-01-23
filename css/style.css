@@ -685,7 +685,6 @@ html {
 	width: 30px;
 	height: 8px;
 	background: url('../img/arrow_white.svg');
-	border: none;
 }
 .project__desc__see__arrow  {
 	background: url('../img/arrow_see.svg');
