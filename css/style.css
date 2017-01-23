@@ -445,7 +445,7 @@ html {
 .project .project__img {
 	position: relative;
 	width: 66%;
-	height: auto;
+	height: 66%;
 }
 .project:nth-child(2n+1) .project__img {
 	order: 0;
@@ -460,6 +460,7 @@ html {
 @media (max-width: 900px) {
 	.project .project__img {
 		width: 100%;
+		height: 100%;
 	}
 	.project:nth-child(2n+1) .project__img, .project:nth-child(2n) .project__img {
 		order: 0;
@@ -685,6 +686,7 @@ html {
 	width: 30px;
 	height: 8px;
 	background: url('../img/arrow_white.svg');
+	border: none;
 }
 .project__desc__see__arrow  {
 	background: url('../img/arrow_see.svg');
